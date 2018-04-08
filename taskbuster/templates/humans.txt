@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jagan Ayyakutty -- Developer -- @jagan359
 
 # THANKS
 
-    <name>
+    Marina Mele -- For the awesome tutorial -- @marina_mele
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    HTML5, CSS3
+    jQuery, Modernizr
