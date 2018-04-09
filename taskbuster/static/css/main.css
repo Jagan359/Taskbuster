@@ -9,6 +9,14 @@
     color: rgba(200, 50, 255, 1);
 }
 
+.silverywhite_color {
+    color: rgb(247, 247, 247);
+}
+
+body {
+    background-image: url('mybackground.jpg');
+}
+
 
 
 

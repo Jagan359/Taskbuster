@@ -33,7 +33,7 @@ def get_env_variable(var_name):
 SECRET_KEY = get_env_variable('SECRET_KEY')
 
 
-ALLOWED_HOSTS = ['murmuring-harbor-88180.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
