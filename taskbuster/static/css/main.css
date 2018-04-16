@@ -57,6 +57,12 @@ nav {
 </style>
 
 <style type="text/css" media="all">
+#logo {
+    height: auto; 
+    width: auto; 
+    max-width: 70px; 
+    max-height: 70px;
+}
 p.shine
 {
     font-size: 3em;
