@@ -26,17 +26,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-    <style>
-
-nav {
-    opacity: 0.65;
-   /* filter: alpha(opacity=50);*/ /* For IE8 and earlier */
-}
-    body {
-        padding-top: 50px;
-        padding-bottom: 20px;
-    }
-</style>
+   
 <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
 <link rel="stylesheet" href="{% static 'css/main.css' %}">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -45,17 +35,19 @@ nav {
 {% block head_javascript %}{% endblock %}
 </head>
 <body>
+    <span><br/></span>
 <div class="row">
-        <div class="col s1 offset-s8">
-           <!--  <a href="https://twitter.com/jagan359?ref_src=twsrc%5Etfw" data-show-count="false" class="fa fa-twitter twitter-follow-button"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-           <i class="fab fa-twitter 3x"></i>
+        <div class="col s2 offset-s7">
+            <a href="https://twitter.com/jagan359?ref_src=twsrc%5Etfw" data-show-count="false" class="fa fa-twitter twitter-follow-button"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <!--  <i class="fab fa-twitter 3x"></i> -->
         </div>
     
 
         <div class="col s1 ">
 
             <a href="https://www.facebook.com/profile.php?id=100009970059700" class="fa fa-facebook fa-2x"></a>
-        
+        </div>
+        <div class="col s1 ">
             <a href="https://www.linkedin.com/in/jaganayyakutty/" class="fa fa-linkedin fa-2x"></a>
         </div>
     </div>
