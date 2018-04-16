@@ -35,7 +35,6 @@
 {% block head_javascript %}{% endblock %}
 </head>
 <body>
-    <br/>
 <div class="row">
         <div class="col s1 offset-s8">
             <a href="https://twitter.com/jagan359?ref_src=twsrc%5Etfw" data-show-count="false" class="fa fa-twitter "></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -56,11 +55,11 @@
                     
           <nav class="grey darken-4 opa">
             <div class="nav-wrapper">
-              <a href="#" class="brand-logo"><img src="static/logo.PNG" id="logo"></a>
+              <a href="#" class="brand-logo"><img src="{% static 'img/logo.PNG' %}" id="logo"></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <!-- <li><a href="sass.html">Sass</a></li> -->
+                <li><a href="badges.html">My Blog</a></li>
+                <li><a href="collapsible.html">My Profile</a></li>
               </ul>
             </div>
           </nav>
